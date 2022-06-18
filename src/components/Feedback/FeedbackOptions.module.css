@@ -1,0 +1,36 @@
+.container {
+  margin: 100px 0px 0px 100px;
+}
+.mainTitle {
+    font-size: 30px;
+    font-weight: 500;
+}
+.btnList {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.itemB {
+    margin-left: 10px;
+}
+.itemB:first-child {
+    margin-left: 0px;
+}
+.button {
+    background-color: rgb(53, 50, 230);
+    padding: 3px 6px;
+    border: none;
+    color: white;
+    border-radius: 2px;
+}
+.noMainTitle {
+    font-size: 25px;
+    font-weight: 500;
+}
+.textList {
+    padding: 0;
+    list-style: none;
+}
+.notification {
+    font-size: 15px;
+}
