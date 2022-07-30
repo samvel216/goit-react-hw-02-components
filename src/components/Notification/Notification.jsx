@@ -1,6 +1,7 @@
-import React, { Component } from "react"; 
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
 import styles from './Notification.module.css';
 const Notification = ({message}) => (
-  <h3 className={styles.notification}>{message}</h3>
+    <p >{message}</p>
 )
 export default Notification;
