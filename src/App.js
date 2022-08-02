@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
 import styles from './components/Feedback/FeedbackOptions.module.css';
 import Statistics from "components/Statistics";
 import FeedbackOptions from "components/Feedback";
 import Notification from './components/Notification';
-import { nanoid } from 'nanoid'
 export class App extends Component {
     state = {
         good: 0,

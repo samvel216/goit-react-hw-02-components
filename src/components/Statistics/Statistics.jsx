@@ -1,5 +1,3 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
 import styles from './Statistics.module.css';
 const Statistics = ({good,neutral,bad,total,positiveFeedBack}) => (
         <ul className={styles.statisticsList}>
