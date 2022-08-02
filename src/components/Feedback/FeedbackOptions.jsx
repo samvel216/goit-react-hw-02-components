@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import styles from './FeedbackOptions.module.css';
 const FeedbackOptions = ({options, ChanchState, FeedbackOptionsId}) => (
         <ul className={styles.feedbackList}>
