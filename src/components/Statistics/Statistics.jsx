@@ -1,4 +1,5 @@
 import styles from './Statistics.module.css';
+import PropTypes from 'prop-types';
 const Statistics = ({good,neutral,bad,total,positiveFeedBack}) => (
         <ul className={styles.statisticsList}>
        <li>
@@ -19,4 +20,11 @@ const Statistics = ({good,neutral,bad,total,positiveFeedBack}) => (
     </ul>
 
 );
+Statistics.propTypes = {
+    good: PropTypes.number,
+    neutral: PropTypes.number,
+    bad: PropTypes.number,
+    total: PropTypes.number,
+    positiveFeedBack: PropTypes.number
+  }
 export default Statistics;
