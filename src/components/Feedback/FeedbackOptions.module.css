@@ -1,9 +1,9 @@
 .feedbackList {
     display: flex;
     list-style: none;
-}
+}   
 .item {
-      margin-right: 20px;  
+      margin-right: 20px;
 }
 .item:last-child {
     margin-right: 0;  
