@@ -1,12 +1,17 @@
 {
-  "printWidth": 40,
+  "printWidth": 80,
   "tabWidth": 2,
-  "useTabs": false,
+  "useTabs": true,
   "semi": true,
   "singleQuote": true,
   "trailingComma": "es5",
   "bracketSpacing": true,
-  "jsxBracketSameLine": false,
+  "jsxBracketSameLine": true,
   "arrowParens": "avoid",
-  "proseWrap": "always"
+  "proseWrap": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "source.fixAll": true
+  },
+  "editor.formatOnSave": true
 }
